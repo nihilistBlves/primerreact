@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Saludo from './components/Saludo/Saludo';
 import reportWebVitals from './reportWebVitals';
+import Metodos from './components/Metodos/Metodos';
+import SumarNumeros from './components/SumarNumeros/SumarNumeros'
+import App from './components/App/App';
+import MatematicasPadre from './components/MatematicasPadre/MatematicasPadre';
+import Contador from './components/Contador/Contador';
+import DibujoPadre from './components/DibujoPadre/DibujoPadre';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="App">
+      <DibujoPadre />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
