@@ -9,11 +9,15 @@ import App from './components/App/App';
 import MatematicasPadre from './components/MatematicasPadre/MatematicasPadre';
 import Contador from './components/Contador/Contador';
 import DibujoPadre from './components/DibujoPadre/DibujoPadre';
+import Car from './components/Car/Car';
 
 ReactDOM.render(
   <React.StrictMode>
     <div className="App">
-      <DibujoPadre />
+      <Car Marca="Pontiac" Modelo="Firebird" Aceleracion="20" VelocidadMax="210"/>
+      <Car Marca="Seat" Modelo="Leon" Aceleracion="10" VelocidadMax="180"/>
+      <Car Marca="Ford" Modelo="Mustang" Aceleracion="30" VelocidadMax="320"/>
+
     </div>
   </React.StrictMode>,
   document.getElementById('root')
